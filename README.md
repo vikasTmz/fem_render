@@ -16,6 +16,7 @@ Then either:
 ```bash
 blender --background render_scene.blend --factory-startup  --python render_script.py
 ```
+**Output**: Rendered images for each .obj file.
 
 ### Result
 
