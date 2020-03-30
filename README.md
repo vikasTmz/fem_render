@@ -1,10 +1,6 @@
 # README: fem_render
 Blender script to create renderings of fem soft-body simulations.
 
-
-## Running Blender scripts (Rendering using .blend files)
-
-
 #### Requirements
 
 Blender (≥ v2.80) (*including python modules.*)
