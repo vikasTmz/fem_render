@@ -4,7 +4,7 @@ from bpy import context, data, ops
 import os
 import math
 
-PATH_TO_OBJS = 'C:\\Users\\Vikas Thmz\\Documents\\2240_ass4_presentation\\Render_1\\test'
+PATH_TO_OBJS = ''
 
 class Blender():
     def __init__(self):
