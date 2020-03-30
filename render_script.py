@@ -14,9 +14,10 @@ class Blender():
     	bpy.ops.import_scene.obj(filepath=path, filter_glob="*.obj")
     	self.model = (set(context.scene.objects) - old_obj).pop()
     def set_material(self):
-        bpy.ops.object.modifier_add(type='SUBSURF')
-        context.object.modifiers["Subdivision"].levels = 2
-        bpy.ops.object.shade_smooth()
+        # Uncomment these to apply subdivision and smoothing
+        #bpy.ops.object.modifier_add(type='SUBSURF')
+        #context.object.modifiers["Subdivision"].levels = 2
+        #bpy.ops.object.shade_smooth()
         mat = bpy.data.materials.new(name="Mat_Tile")
         mat.use_nodes = True
         bsdf = mat.node_tree.nodes["Principled BSDF"]
