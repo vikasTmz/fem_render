@@ -10,7 +10,7 @@ Blender (≥ v2.80) (*including python modules.*)
 **Input**: A directory containing .obj files (exported from your simulation). Add this path in `render_script.py` to `PATH_TO_OBJS`.
 
 Then either:
-- Copy paste the python script (`render_script.py`) into blender's python console or,
+- Open the `render_scene.blend` file in Blender and copy paste the python script (`render_script.py`) into blender's python console or,
 
 - Use this command:
 ```bash
